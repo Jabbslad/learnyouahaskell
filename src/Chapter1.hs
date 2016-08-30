@@ -11,3 +11,5 @@ doubleSmallNumber x = if x > 100
 doubleSmallNumber' x = (if x > 100 
                         then x
                         else doubleMe x) + 1
+
+removeLowerCase st = [c | c <- st, c `elem` ['A'..'Z']]
