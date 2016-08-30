@@ -1,4 +1,4 @@
-module Doubles where
+module Chapter1 where
 
 doubleMe x = x + x
 
