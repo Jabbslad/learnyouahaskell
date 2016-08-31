@@ -13,3 +13,5 @@ doubleSmallNumber' x = (if x > 100
                         else doubleMe x) + 1
 
 removeLowerCase st = [c | c <- st, c `elem` ['A'..'Z']]
+
+f = fst (1, 2)
