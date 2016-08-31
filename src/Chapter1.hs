@@ -15,3 +15,6 @@ doubleSmallNumber' x = (if x > 100
 removeLowerCase st = [c | c <- st, c `elem` ['A'..'Z']]
 
 f = fst (1, 2)
+
+thirdElement :: (c, b, a) -> a
+thirdElement (_, _, a) = a
